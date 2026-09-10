@@ -3,6 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+header {
+  display: flex;
+  align-items: center;
+  padding: 100px;
+}
 .img-container {
   max-width: 300px;
   position: relative;
