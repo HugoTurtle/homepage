@@ -3,6 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+.img-container {
+  max-width: 300px;
+  position: relative;
+}
+.img-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
 .icon {
   width: 25px;
   height: 25px;
