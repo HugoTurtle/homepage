@@ -6,8 +6,22 @@
 header {
   display: flex;
   align-items: center;
-  padding: 100px;
+  padding: 100px 100px 50px;
   font-size: 1.4rem;
+  position: relative;
+}
+header::before {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: #0085a5;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  transform: skew(360deg, 6.0134rad);
+  transform-origin: top left;
 }
 .img-container {
   max-width: 350px;
@@ -44,6 +58,7 @@ header {
   gap: 2rem;
   padding: 50px 25px;
   box-shadow: 0px 0px 2px 1px black;
+  background-color: white;
 }
 .icon-container {
   display: flex;
