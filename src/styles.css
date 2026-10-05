@@ -43,6 +43,9 @@ header {
       0 4px 6px rgba(0, 0, 0, 0.15),
       0 8px 12px rgba(0, 0, 0, 0.12);
   }
+  .icon-container {
+    justify-content: flex-end;
+  }
 }
 header::before {
   content: "";
@@ -75,7 +78,6 @@ header::before {
 }
 .icon-container {
   display: flex;
-  justify-content: flex-end;
   gap: 20px;
 }
 main {
@@ -121,4 +123,17 @@ main {
       padding: 10px 10px 40px;
     }
   }
+}
+footer {
+    display: flex;
+    padding: 100px;
+    background: #0085a5;
+
+    #contact {
+    flex: 1;
+  }
+  .img-container {
+    flex: 2;
+    max-width: 300px;
+}
 }
