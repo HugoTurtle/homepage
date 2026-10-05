@@ -10,6 +10,39 @@ header {
   padding: 100px 100px 50px;
   font-size: 1.4rem;
   position: relative;
+
+  .img-container {
+    max-width: 350px;
+    position: relative;
+    display: inline-block;
+
+    box-shadow:
+      0 4px 6px rgba(0, 0, 0, 0.15),
+      0 8px 12px rgba(0, 0, 0, 0.12);
+  }
+  .overlay-text {
+    position: absolute;
+    font-size: 2rem;
+    width: 100%;
+    letter-spacing: 0.05em;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 50px 25px;
+    background-color: white;
+
+    box-shadow:
+      0 4px 6px rgba(0, 0, 0, 0.15),
+      0 8px 12px rgba(0, 0, 0, 0.12);
+  }
 }
 header::before {
   content: "";
@@ -28,15 +61,6 @@ header::before {
     0 4px 6px rgba(0, 0, 0, 0.15),
     0 8px 12px rgba(0, 0, 0, 0.12);
 }
-.img-container {
-  max-width: 350px;
-  position: relative;
-  display: inline-block;
-
-  box-shadow:
-    0 4px 6px rgba(0, 0, 0, 0.15),
-    0 8px 12px rgba(0, 0, 0, 0.12);
-}
 .img-container img {
   width: 100%;
   height: auto;
@@ -48,29 +72,6 @@ header::before {
   width: 25px;
   height: 25px;
   display: block;
-}
-.overlay-text {
-  position: absolute;
-  font-size: 2rem;
-  width: 100%;
-  letter-spacing: 0.05em;
-  top: 95%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: white;
-  font-weight: bold;
-}
-.container {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  padding: 50px 25px;
-  background-color: white;
-
-  box-shadow:
-    0 4px 6px rgba(0, 0, 0, 0.15),
-    0 8px 12px rgba(0, 0, 0, 0.12);
 }
 .icon-container {
   display: flex;
