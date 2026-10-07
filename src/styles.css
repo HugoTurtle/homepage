@@ -149,4 +149,7 @@ footer {
     width: 40px;
     height: 40px;
   }
+  svg {
+    fill: white;
+  }
 }
