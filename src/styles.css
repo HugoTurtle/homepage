@@ -152,4 +152,8 @@ footer {
   svg {
     fill: white;
   }
+  a:link {
+    color: white;
+    text-decoration: none;
+  }
 }
